@@ -17,6 +17,7 @@ body {
 
 #background {
     background-image: url(/image/background.PNG);
+    background-size: 400px 1000px;
     width: 400px;
     height: 1000px;
     
