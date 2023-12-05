@@ -7,8 +7,8 @@ body {
 
 #header {
     background: lightgreen;
-    width: 400px;
-    height: 70px;
+    width: 362px;
+    height: 60px;
     position: fixed;
     margin-top: -10px;
     z-index: 3;
@@ -26,7 +26,7 @@ body {
 
 #under {
     background: black;
-    width: 400px;
+    width: 362px;
     height: 70px;
     position: absolute;
     bottom: 0%;
@@ -36,7 +36,7 @@ body {
 #allmenu {
     float: left;
     margin-top: 70px;
-    margin-left: 0px;
+    margin-left: 15px;
 }
 #menu {
     
