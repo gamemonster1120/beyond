@@ -1,0 +1,97 @@
+body {
+    background: white;
+    display: flex;
+    
+    justify-content: center;
+}
+
+#header {
+    background: lightgreen;
+    width: 368px;
+    height: 60px;
+    position: fixed;
+    margin-top: -10px;
+    z-index: 3;
+    
+}
+
+#background {
+    background-image: url(/image/background.PNG);
+    background-size: 400px 1000px;
+    width: 400px;
+    height: 1000px;
+    
+    
+}
+
+#under {
+    background: black;
+    width: 368px;
+    height: 70px;
+    position: absolute;
+    bottom: 0%;
+    position: fixed;
+    z-index: 2;
+}
+#allmenu {
+    float: left;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+#menu1 {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 16px;
+    background-repeat: no-repeat;
+    background-image: url(/image/menu.PNG);
+    background-size: 80px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+#menu1:hover {
+    transform: rotate(-10deg);
+    cursor: pointer;
+
+}
+#menu {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 16px;
+    background-repeat: no-repeat;
+    background-image: url(/image/menu.PNG);
+    background-size: 80px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+#menu:hover {
+    transform: rotate(-10deg);
+    cursor: pointer;
+    
+}
+
+#img {
+    width: 50px;
+    height: 30px;
+    background-image: url(/image/food.jpg);
+    background-size: 50px 30px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+}
+h2 {
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+}
