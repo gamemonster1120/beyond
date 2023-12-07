@@ -1,0 +1,59 @@
+@media(orientation: portrait) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: top left;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100vh;
+        height: 100vw;
+    }
+}
+
+body {
+    background: white;
+    display: flex;
+
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#header {
+    background: lightgreen;
+    width: 340px;
+    height: 20px;
+    position: fixed;
+    margin-top: -10px;
+    z-index: 3;
+
+}
+
+#background {
+    background-image: url(/image/background.PNG);
+    background-size: 340px 150px;
+    width: 340px;
+    height: 135px;
+
+
+}
+
+#under {
+    background: black;
+    width: 340px;
+    height: 15px;
+    
+    bottom: 62%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 3pt;
+    text-align: center;
+    white-space: pre;
+}
