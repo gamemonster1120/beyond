@@ -1,13 +1,13 @@
 body {
     background: white;
     display: flex;
-    
+    margin: 0;
     justify-content: center;
 }
 
 #header {
     background: lightgreen;
-    width: 368px;
+    width: 100%;
     height: 60px;
     position: fixed;
     margin-top: -10px;
@@ -17,16 +17,16 @@ body {
 
 #background {
     background-image: url(/image/background.PNG);
-    background-size: 400px 1000px;
-    width: 400px;
-    height: 1000px;
+    background-size: 100% 30    00px;
+    width: 100%;
+    height: 3000px;
     
     
 }
 
 #under {
     background: black;
-    width: 368px;
+    width: 100%;
     height: 70px;
     position: absolute;
     bottom: 0%;
@@ -36,7 +36,7 @@ body {
 #allmenu {
     float: left;
     margin-top: 70px;
-    margin-left: 15px;
+    margin-left: 150px;
 }
 
 #menu1 {
@@ -44,13 +44,13 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     float: left;
-    margin: 16px;
+    margin: 50px;
     background-repeat: no-repeat;
     background-image: url(/image/menu.PNG);
-    background-size: 80px 80px;
+    background-size: 300px 300px;
     position: relative;
     z-index: 1;
 }
@@ -65,15 +65,16 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     float: left;
-    margin: 16px;
+    margin: 50px;
     background-repeat: no-repeat;
     background-image: url(/image/menu.PNG);
-    background-size: 80px 80px;
+    background-size: 300px 300px;
     position: relative;
     z-index: 1;
+    
 }
 
 #menu:hover {
@@ -83,15 +84,19 @@ body {
 }
 
 #img {
-    width: 50px;
-    height: 30px;
-    background-image: url(/image/food.jpg);
-    background-size: 50px 30px;
-    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+    background-image: url(/image/완성.png);
+    background-size: 200px 150px;
+    margin-top: 100px;
     background-repeat: no-repeat;
 }
 h2 {
     color: white;
     font-size: 10pt;
     text-align: center;
+}
+
+audio {
+    width: 0;
 }

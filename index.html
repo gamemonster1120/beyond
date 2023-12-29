@@ -9,45 +9,50 @@
     </style>
     <title>Document</title>
 </head>
-<body>
-    <div id="header"></div>
+<body">
+
+    <div id="header" onclick="audio2.play();"></div>
     
     <div id="background">
         <div id="allmenu">
         <a href="./html/recipe.html">
-            <div id="menu1">
+            <div id="menu1" onclick="audio.play();">
             <div id="img"></div>
         </div></a>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
+        <div id="menu" onclick="audio.play();"></div>
         
 
        <script>
     
     const menus = document.querySelectorAll('#menu');
-
+    const audio = new Audio();
+    const audio2 = new Audio();
+    audio.src = "./audio/Goccia 02 by melarancida Id-47385.wav";
+    audio2.src = "./audio/893. 붕어빵.mp3";
     
     menus.forEach(menu => {
         menu.addEventListener("click", () => {
             alert("차후 업데이트 예정");
+            
         });
     });
 </script>
@@ -55,7 +60,7 @@
         </div>
         <div id="under"><h2>Email - chouhugohugo@gmail.com<br>SubEmail - sdh220317@sdh.hs.kr<br>Tel - 010-8690-8980</h2></div>
     </div>
-
+    
     
 </body>
 </html>
